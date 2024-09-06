@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xl-ddm-data version="12.2.1.4.0" user="XELSYSADM" database="" exported-date="1571859329556" description="RegisterPlugin">
+  <scheduledTask repo-type="MDS" name="RegisterPlugin" mds-path="/db" mds-file="RegisterPlugin.xml">
+    <completeXml>
+      <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+        <task>
+      <name>RegisterPlugin</name>
+      <class>tech.zephon.oim.utiljobs.jobs.RegisterPlugin</class>
+      <description>RegisterPlugin</description>
+      <retry>0</retry>
+      <parameters>
+         <string-param required="true" encrypted="false" helpText="Full Path to plugin Zip file">Zip File Path</string-param>
+      </parameters>
+   </task>
+      </scheduledTasks>
+    </completeXml>
+  </scheduledTask>
+</xl-ddm-data>

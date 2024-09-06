@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xl-ddm-data version="12.2.1.4.0" user="XELSYSADM" database="" exported-date="1571859329556" description="ReloadJar">
+  <scheduledTask repo-type="MDS" name="ReloadJar" mds-path="/db" mds-file="ReloadJar.xml">
+    <completeXml>
+      <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+        <task>
+      <name>ReloadJar</name>
+      <class>tech.zephon.oim.utiljobs.jobs.ReloadJar</class>
+      <description>ReloadJar</description>
+      <retry>0</retry>
+      <parameters>
+         <string-param required="true" encrypted="false" helpText="JavaTasks,ScheduleTask,ICFBundle,ThirdParty">Jar Type</string-param>
+         <string-param required="true" encrypted="false" helpText="Jar Name">Jar Name</string-param>
+         <string-param required="true" encrypted="false" helpText="Jar Path">Jar Path</string-param>
+         <boolean-param required="true" encrypted="false" helpText="Ignore Delete">Ignore Delete</boolean-param>
+         <boolean-param required="true" encrypted="false" helpText="Do Delete">Do Delete</boolean-param>
+      </parameters>
+   </task>
+      </scheduledTasks>
+    </completeXml>
+  </scheduledTask>
+</xl-ddm-data>

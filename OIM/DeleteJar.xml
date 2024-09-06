@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xl-ddm-data version="12.2.1.4.0" user="XELSYSADM" database="" exported-date="1571859329556" description="DeleteJar">
+  <scheduledTask repo-type="MDS" name="DeleteJar" mds-path="/db" mds-file="DeleteJar.xml">
+    <completeXml>
+      <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
+        <task>
+      <name>DeleteJar</name>
+      <class>tech.zephon.oim.utiljobs.jobs.DeleteJar</class>
+      <description>DeleteJar</description>
+      <retry>0</retry>
+      <parameters>
+         <string-param required="true" encrypted="false" helpText="JavaTasks,ScheduleTask,ICFBundle,ThirdParty">Jar Type</string-param>
+         <string-param required="true" encrypted="false" helpText="Jar Name">Jar Name</string-param>
+      </parameters>
+   </task>
+      </scheduledTasks>
+    </completeXml>
+  </scheduledTask>
+</xl-ddm-data>
