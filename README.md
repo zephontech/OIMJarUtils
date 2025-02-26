@@ -1,4 +1,4 @@
-OIM Jar Utils. a few OIM Sceduled tasks the allow you avoid the command line
+OIM Jar Utils. a few OIM Sceduled tasks that allow you avoid the command line
 Purge Cache
 Load/Reload Jar
 Delete Jar
