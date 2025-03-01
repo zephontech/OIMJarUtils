@@ -8,14 +8,13 @@ import com.thortech.util.logging.Logger;
 import java.util.HashMap;
 import oracle.iam.platform.Platform;
 import oracle.iam.platformservice.api.PlatformUtilsService;
-import oracle.iam.scheduler.vo.TaskSupport;
 import tech.zephon.utiljobs.utils.StringUtils;
 
 /**
  *
  * @author fforester
  */
-public class PurgeCache extends TaskSupport {
+public class PurgeCache extends BaseTask {
     
     private static final Logger logger = Logger.getLogger(PurgeCache.class.getName());
 
@@ -40,15 +39,4 @@ public class PurgeCache extends TaskSupport {
         logger.info("Purge Complete");
     }
 
-    @Override
-    public HashMap getAttributes() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void setAttributes() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    
 }

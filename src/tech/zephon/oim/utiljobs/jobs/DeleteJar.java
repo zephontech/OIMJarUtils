@@ -10,7 +10,6 @@ import java.util.Set;
 import oracle.iam.platform.Platform;
 import oracle.iam.platformservice.api.PlatformUtilsService;
 import oracle.iam.platformservice.vo.JarElement;
-import oracle.iam.scheduler.vo.TaskSupport;
 import tech.zephon.utiljobs.utils.MakeJarElement;
 import tech.zephon.utiljobs.utils.StringUtils;
 
@@ -18,7 +17,7 @@ import tech.zephon.utiljobs.utils.StringUtils;
  *
  * @author fforester
  */
-public class DeleteJar extends TaskSupport {
+public class DeleteJar extends BaseTask {
     
     
 
@@ -68,16 +67,5 @@ public class DeleteJar extends TaskSupport {
         logger.info("Delete Complete");
     }
 
-    @Override
-    public HashMap getAttributes() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
-    @Override
-    public void setAttributes() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-    
-    
     
 }

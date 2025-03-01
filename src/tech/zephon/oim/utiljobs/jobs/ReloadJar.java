@@ -10,7 +10,6 @@ import java.util.Set;
 import oracle.iam.platform.Platform;
 import oracle.iam.platformservice.api.PlatformUtilsService;
 import oracle.iam.platformservice.vo.JarElement;
-import oracle.iam.scheduler.vo.TaskSupport;
 import tech.zephon.utiljobs.utils.MakeJarElement;
 import tech.zephon.utiljobs.utils.StringUtils;
 
@@ -18,7 +17,7 @@ import tech.zephon.utiljobs.utils.StringUtils;
  *
  * @author fforester
  */
-public class ReloadJar extends TaskSupport {
+public class ReloadJar extends BaseTask {
 
     private static final Logger logger = Logger.getLogger(ReloadJar.class.getName());
     
