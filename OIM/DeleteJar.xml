@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xl-ddm-data version="12.2.1.4.0" user="XELSYSADM" database="" exported-date="1571859329556" description="DeleteJar">
-  <scheduledTask repo-type="MDS" name="DeleteJar" mds-path="/db" mds-file="DeleteJar.xml">
+  <scheduledTask repo-type="MDS" name="DeleteJar" mds-path="/custom" mds-file="DeleteJar.xml">
     <completeXml>
       <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
         <task>

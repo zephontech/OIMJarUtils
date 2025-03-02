@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xl-ddm-data version="12.2.1.4.0" user="XELSYSADM" database="" exported-date="1571859329556" description="ReloadJar">
-  <scheduledTask repo-type="MDS" name="ReloadJar" mds-path="/db" mds-file="ReloadJar.xml">
+  <scheduledTask repo-type="MDS" name="ReloadJar" mds-path="/custom" mds-file="ReloadJar.xml">
     <completeXml>
       <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
         <task>

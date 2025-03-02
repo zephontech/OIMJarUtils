@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xl-ddm-data version="12.2.1.4.0" user="XELSYSADM" database="" exported-date="1571859329556" description="PurgeCache">
-  <scheduledTask repo-type="MDS" name="PurgeCache" mds-path="/db" mds-file="PurgeCache.xml">
+  <scheduledTask repo-type="MDS" name="PurgeCache" mds-path="/custom" mds-file="PurgeCache.xml">
     <completeXml>
       <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
         <task>

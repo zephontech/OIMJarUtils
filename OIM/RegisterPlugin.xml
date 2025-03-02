@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xl-ddm-data version="12.2.1.4.0" user="XELSYSADM" database="" exported-date="1571859329556" description="RegisterPlugin">
-  <scheduledTask repo-type="MDS" name="RegisterPlugin" mds-path="/db" mds-file="RegisterPlugin.xml">
+  <scheduledTask repo-type="MDS" name="RegisterPlugin" mds-path="/custom" mds-file="RegisterPlugin.xml">
     <completeXml>
       <scheduledTasks xmlns="http://xmlns.oracle.com/oim/scheduler">
         <task>
