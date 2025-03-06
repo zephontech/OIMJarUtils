@@ -14,3 +14,6 @@ the OIM folder contains the task XML. they are for 12C PS4. you may need to chan
 Import the task XML then create the jobs.
 
 if you decide to change the package names be sure to change the XML files also.
+
+See the how to video here
+https://www.youtube.com/watch?v=vsnADKMyFgQ&t=15s
